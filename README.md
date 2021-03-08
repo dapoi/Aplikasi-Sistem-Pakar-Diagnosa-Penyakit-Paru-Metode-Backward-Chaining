@@ -1,1 +1,1 @@
-"# Aplikasi ini mengimplementasi backward-chaining" 
+"# Aplikasi ini mengimplementasi metode backward-chaining" 
