@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/ic_medic">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Your Health"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bg_circle_half">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penyakit"
+                android:textAlignment="center"
+                android:textColor="#F44336"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pilih 4 Gejala yang Anda Alami"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:fontFamily="sans-serif"></TextView>
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#4D69D5"
+                android:text="Demam"
+                android:textColor="#4D69D5"
+                android:textSize="20dp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#4D69D5"
+                android:text="Batuk-batuk"
+                android:textColor="#4D69D5"
+                android:textSize="20dp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#4D69D5"
+                android:text="Hidung Tersumbat"
+                android:textColor="#4D69D5"
+                android:textSize="20dp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#4D69D5"
+                android:text="Hidung Meler"
+                android:textColor="#4D69D5"
+                android:textSize="20dp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#4D69D5"
+                android:text="Tenggorokan Sakit"
+                android:textColor="#4D69D5"
+                android:textSize="20dp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#4D69D5"
+                android:text="Tenggorokan Tidak Nyaman"
+                android:textColor="#4D69D5"
+                android:textSize="20dp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#4D69D5"
+                android:text="Bersin-bersin"
+                android:textColor="#4D69D5"
+                android:textSize="20dp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#4D69D5"
+                android:text="Pernafasan Tidak Normal"
+                android:textColor="#4D69D5"
+                android:textSize="20dp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#4D69D5"
+                android:text="Muntah"
+                android:textColor="#4D69D5"
+                android:textSize="20dp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#4D69D5"
+                android:text="Diare"
+                android:textColor="#4D69D5"
+                android:textSize="20dp"></CheckBox>
+
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#4D69D5"
+                android:text="Anggota Tubuh Lemas"
+                android:textColor="#4D69D5"
+                android:textSize="20dp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#4D69D5"
+                android:text="Dahal Kental"
+                android:textColor="#4D69D5"
+                android:textSize="20dp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#4D69D5"
+                android:text="Nyeri Otot"
+                android:textColor="#4D69D5"
+                android:textSize="20dp"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#4D69D5"
+                android:text="Sinar X Pada Paru-paru"
+                android:textColor="#4D69D5"
+                android:textSize="20dp"></CheckBox>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_circle_blue">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Berdasarkan Hasil Gejala Di Atas"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="26dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tekan Cek Hasil Untuk Mengetahui Hasilnya"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="24dp"></TextView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnHasil"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="CEK HASIL"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:theme="@style/buttonstyle1"
+            app:iconTint="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
